@@ -11,13 +11,13 @@ Add to your library folder in OpenSCAD and use the import function to begin usin
 
 [OpenSCAD Libraries (Manual)](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Libraries "OpenSCAD Libraries")
 
+Currently all models are in inches.
+
 ### 3D Linkages (linkages.scad)
 
 ![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkageex.png?raw=true "Examples")
 
 1. linkwidth(holeD,width,length,thick,slot);
-
-    linkwidth(holeD,width,length,thick,slot);
 
   + **holeD:** diameter of the holes at each end
   + **width:** width of the part (must be greater than holeD)
