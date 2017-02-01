@@ -7,6 +7,11 @@ v.01 - January 31, 2017
 + linkages2D.scad: 2D Linkages to be exported .SVG or .DXF
 + linkageex.scad: examples of some of the operations and functions of the library
 
+Add to your library folder in OpenSCAD nad use the import function to begin using these modules.
+
+[OpenSCAD Libraries (Manual)](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Libraries "OpenSCAD Libraries")
+
+
 Examples:
 
 ![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkageex.png?raw=true "Examples")
@@ -37,7 +42,7 @@ Examples:
   + **thick:** thickness of the part or Z value
   + **rot:** angle of rotation for the second hole to create angular linkages
 
-4. linksurround(holeD,surround,length,thick,slot)
+4. linksurround(holeD,surround,length,thick,slot);
 
   + **holeD:** diameter of the holes at each end
   + **surround:** distance from the edge of the hole to the edge of the part
@@ -45,7 +50,7 @@ Examples:
   + **thick:** thickness of the part or Z value
   + **slot:** enter a 1 for a slot down the middle, enter 0 for solid part
 
-5. threelinksurround(holeD,surround,length,thick,three)
+5. threelinksurround(holeD,surround,length,thick,three);
 
   + **holeD:** diameter of the holes at each end
   + **surround:** distance from the edge of the hole to the edge of the part
@@ -53,7 +58,7 @@ Examples:
   + **thick:** thickness of the part or Z value
   + **three:** distance a third hole is from the first hole, choose length/2 for center hole
 
-6. module linksurroundrot(holeD,surround,length,thick,rot)
+6. linksurroundrot(holeD,surround,length,thick,rot);
 
   + **holeD:** diameter of the holes at each end
   + **surround:** distance from the edge of the hole to the edge of the part
