@@ -8,4 +8,5 @@ v.01 - January 31, 2017
 + linkageex.scad: examples of some of the operations and functions of the library
 
 Examples:
-(https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkageex.png?raw=true)
+
+![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkageex.png?raw=true)"Examples")
