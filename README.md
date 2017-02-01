@@ -11,12 +11,9 @@ Add to your library folder in OpenSCAD nad use the import function to begin usin
 
 [OpenSCAD Libraries (Manual)](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Libraries "OpenSCAD Libraries")
 
-
-Examples:
+### 3D Linkages (linkages.scad)
 
 ![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkageex.png?raw=true "Examples")
-
-### 3D Linkages (linkages.scad)
 
 1. linkwidth(holeD,width,length,thick,slot);
 
@@ -66,9 +63,9 @@ Examples:
   + **thick:** thickness of the part or Z value
   + **rot:** angle of rotation for the second hole to create angular linkages
   
-![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkage2Dex.png?raw=true "2D Examples")
-
 ### 2D Linkages (linkages2D.scad)
+
+![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkage2Dex.png?raw=true "2D Examples")
 
 1. linkwidth2D(holeD,width,length,slot);
 
