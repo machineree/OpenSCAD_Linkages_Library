@@ -65,3 +65,35 @@ Examples:
   + **length:** distance between outer holes from center
   + **thick:** thickness of the part or Z value
   + **rot:** angle of rotation for the second hole to create angular linkages
+  
+![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkage2Dex.png?raw=true "2D Examples")
+
+### 2D Linkages (linkages2D.scad)
+
+1. linkwidth2D(holeD,width,length,slot);
+
+  + **holeD:** diameter of the holes at each end
+  + **width:** width of the part (must be greater than holeD)
+  + **length:** distance between outer holes from center
+  + **slot:** enter a 1 for a slot down the middle, enter 0 for solid part
+
+2. threelinkwidth2D(holeD,width,length,three);
+
+  + **holeD:** diameter of the holes at each end
+  + **width:** width of the part
+  + **length:** distance between outer holes from center
+  + **three:** distance a third hole is from the first hole, choose length/2 for center hole
+
+3. linksurround2D(holeD,surround,length,slot);
+
+  + **holeD:** diameter of the holes at each end
+  + **surround:** distance from the edge of the hole to the edge of the part
+  + **length:** distance between outer holes from center
+  + **slot:** enter a 1 for a slot down the middle, enter 0 for solid part
+
+4. threelinksurround2D(holeD,surround,length,three);
+
+  + **holeD:** diameter of the holes at each end
+  + **surround:** distance from the edge of the hole to the edge of the part
+  + **length:** distance between outer holes from center
+  + **three:** distance a third hole is from the first hole, choose length/2 for center hole
