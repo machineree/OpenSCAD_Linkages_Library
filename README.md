@@ -14,6 +14,7 @@ Examples:
 ### 3D Linkages (linkages.scad)
 
 1. linkwidth(holeD,width,length,thick,slot);
+
 + holeD: diameter of the holes at each end
 + width: width of the part (must be greater than holeD)
 + length: distance between outer holes from center
@@ -21,6 +22,7 @@ Examples:
 + slot: enter a 1 for a slot down the middle, enter 0 for solid part
 
 2. threelinkwidth(holeD,width,length,thick,three);
+
 + holeD: diameter of the holes at each end
 + width: width of the part
 + length: distance between outer holes from center
@@ -28,6 +30,7 @@ Examples:
 + three: distance a third hole is from the first hole, choose length/2 for center hole
 
 3. linkwidthrot(holeD,width,length,thick,rot);
+
 + holeD: diameter of the holes at each end
 + width: width of the part
 + length: distance between outer holes from center
@@ -35,6 +38,7 @@ Examples:
 + rot: angle of rotation for the second hole to create angular linkages
 
 4. linksurround(holeD,surround,length,thick,slot)
+
 + holeD: diameter of the holes at each end
 + surround: distance from the edge of the hole to the edge of the part
 + length: distance between outer holes from center
@@ -42,6 +46,7 @@ Examples:
 + slot: enter a 1 for a slot down the middle, enter 0 for solid part
 
 5. threelinksurround(holeD,surround,length,thick,three)
+
 + holeD: diameter of the holes at each end
 + surround: distance from the edge of the hole to the edge of the part
 + length: distance between outer holes from center
@@ -49,6 +54,7 @@ Examples:
 + three: distance a third hole is from the first hole, choose length/2 for center hole
 
 6. module linksurroundrot(holeD,surround,length,thick,rot)
+
 + holeD: diameter of the holes at each end
 + surround: distance from the edge of the hole to the edge of the part
 + length: distance between outer holes from center
