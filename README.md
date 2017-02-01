@@ -6,3 +6,6 @@ v.01 - January 31, 2017
 + linkages.scad: 3D Linkages
 + linkages2D.scad: 2D Linkages to be exported .SVG or .DXF
 + linkageex.scad: examples of some of the operations and functions of the library
+
+Examples:
+(https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkageex.png?raw=true)
