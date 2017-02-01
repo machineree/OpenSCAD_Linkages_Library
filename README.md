@@ -7,7 +7,7 @@ v.01 - January 31, 2017
 + linkages2D.scad: 2D Linkages to be exported .SVG or .DXF
 + linkageex.scad: examples of some of the operations and functions of the library
 
-Add to your library folder in OpenSCAD nad use the import function to begin using these modules.
+Add to your library folder in OpenSCAD and use the import function to begin using these modules.
 
 [OpenSCAD Libraries (Manual)](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Libraries "OpenSCAD Libraries")
 
