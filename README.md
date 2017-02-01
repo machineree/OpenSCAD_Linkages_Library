@@ -17,7 +17,7 @@ Add to your library folder in OpenSCAD and use the import function to begin usin
 
 1. 
 
-  linkwidth(holeD,width,length,thick,slot);
+    linkwidth(holeD,width,length,thick,slot);
 
   + **holeD:** diameter of the holes at each end
   + **width:** width of the part (must be greater than holeD)
