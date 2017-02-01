@@ -15,7 +15,9 @@ Add to your library folder in OpenSCAD and use the import function to begin usin
 
 ![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkageex.png?raw=true "Examples")
 
-1. linkwidth(holeD,width,length,thick,slot);
+1. 
+
+  linkwidth(holeD,width,length,thick,slot);
 
   + **holeD:** diameter of the holes at each end
   + **width:** width of the part (must be greater than holeD)
