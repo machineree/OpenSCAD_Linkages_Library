@@ -1,9 +1,9 @@
 # OpenSCAD_Linkages_Library
-## OpenSCAD library to create multiple types of mechanical linkages in 2D and 3D.
+### OpenSCAD library to create multiple types of mechanical linkages in 2D and 3D.
 
 Thingiverse Thing: [2081445](http://www.thingiverse.com/thing:2081445)
 
-v.02 - February 5, 2017
+*v.02 - February 5, 2017*
 
 + linkages.scad: 2D & 3D linkages in one library
 
@@ -12,7 +12,7 @@ v.02 - February 5, 2017
  - Renamed modules to fit scheme
  - Changed slots in linkwidth & linksurround to true/false
 
-v.01 - January 31, 2017
+*v.01 - January 31, 2017*
 
 + linkages.scad: 3D Linkages
 + linkages2D.scad: 2D Linkages to be exported .SVG or .DXF
