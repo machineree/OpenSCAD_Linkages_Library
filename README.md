@@ -22,7 +22,7 @@ Add to your library folder in OpenSCAD and use the include function to begin usi
 
 [OpenSCAD Libraries (Manual)](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Libraries "OpenSCAD Libraries")
 
-Currently all models are in inches.
+Currently all models are in mm.
 
 ### 3D Linkages (linkages.scad)
 
