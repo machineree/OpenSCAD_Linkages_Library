@@ -162,8 +162,7 @@ include <linkages.scad>
 
 linkwidth(2,5,20,1);
 
-translate([7.5,0,0])
-linkwidth(2,5,20,1,slot=true);
+translate([7.5,0,0]) linkwidth(2,5,20,1,slot=true);
 ```
 
 ![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkwidth.png?raw=true "linkwidth")
@@ -175,23 +174,32 @@ include <linkages.scad>
 
 linkwidththree(2,5,20,1,4);
 
-translate([7.5,0,0])
-linkwidththree(2,5,20,1,20/2);
+translate([7.5,0,0]) linkwidththree(2,5,20,1,20/2);
 ```
 
 ![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkwidththree.png?raw=true "linkwidththree")
 
+Using `linkwidthrot` for complicated angled/twist linkages, using positive and negative degrees:
+
+```openscad
+include <linkages.scad>
+
+linkwidthrot(2,5,20,1,45);
+
+translate([7.5,0,0]) linkwidthrot(2,5,20,1,-45);
+
+translate([15,0,0]) linkwidthrot(2,5,20,1,90);
+```
+![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkwidthrot.png?raw=true "linkwidthrot")
 
 Comparison of scaling the same linkage in inches, centimeters, and millimeters:
 
 ```openscad
 include <linkages.scad>
 
-translate([22.5,0,0])
-linkwidth(.25,.5,3,.125);
+translate([22.5,0,0]) linkwidth(.25,.5,3,.125);
 
-translate([15,0,0])
-scale(cm()) linkwidth(.25,.5,3,.125);
+translate([15,0,0]) scale(cm()) linkwidth(.25,.5,3,.125);
 
 scale(in()) linkwidth(.25,.5,3,.125);
 ```
