@@ -153,4 +153,12 @@ Default units are mm.
 
 link+(width/surround)+(three/rot/angle)+(2D)
 
-###Examples to come!
+###Examples!
+
+![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkagehelp.png?raw=true "linkagehelp")
+
+```openscad
+include <linkages.scad>
+
+linkagehelp();
+```
