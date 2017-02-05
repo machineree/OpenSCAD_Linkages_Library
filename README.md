@@ -7,7 +7,7 @@ Thingiverse Thing: [2081445](http://www.thingiverse.com/thing:2081445)
 
 + linkages.scad: 2D & 3D linkages in one library
 
- - Added help function: linkagehelp();
+ - Added help function: `linkagehelp();`
  - Added linkwidthangle, linksurroundangle in 2D & 3D for angled flat bar linkages with 2/3 holes
  - Renamed modules to fit scheme
  - Changed slots in linkwidth & linksurround to true/false
@@ -22,7 +22,7 @@ Thingiverse Thing: [2081445](http://www.thingiverse.com/thing:2081445)
 
 Add to your library folder in OpenSCAD and use the include function to begin using these modules.
 
-```openscad
+```scad
 include <linkages.scad>
 ```    
 
