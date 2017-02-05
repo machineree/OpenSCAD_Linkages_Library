@@ -155,6 +155,33 @@ link+(width/surround)+(three/rot/angle)+(2D)
 
 ###Examples!
 
+Using basic `linkwidth` and the slot:
+
+```openscad
+include <linkages.scad>
+
+linkwidth(2,5,20,1);
+
+translate([7.5,0,0])
+linkwidth(2,5,20,1,slot=true);
+```
+
+![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkwidth.png?raw=true "linkwidth")
+
+Using basic `linkwidththree` to determine custom distance to middle hole using a specific number or dividing by length used for the linkage:
+
+```openscad
+include <linkages.scad>
+
+linkwidththree(2,5,20,1,4);
+
+translate([7.5,0,0])
+linkwidththree(2,5,20,1,20/2);
+```
+
+![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkwidththree.png?raw=true "linkwidththree")
+
+
 Comparison of scaling the same linkage in inches, centimeters, and millimeters:
 
 ```openscad
