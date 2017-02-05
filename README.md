@@ -22,9 +22,9 @@ Thingiverse Thing: [2081445](http://www.thingiverse.com/thing:2081445)
 
 Add to your library folder in OpenSCAD and use the include function to begin using these modules.
 
-```OpenSCAD
+```openscad
 include <linkages.scad>
-```
+```    
 
 [OpenSCAD Libraries (Manual)](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Libraries "OpenSCAD Libraries")
 
