@@ -164,8 +164,19 @@ linkwidth(2,5,20,1);
 
 translate([7.5,0,0]) linkwidth(2,5,20,1,slot=true);
 ```
-
 ![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkwidth.png?raw=true "linkwidth")
+
+Comparison us `linkwidth` to `linksurround` with the same values in mm:
+
+```openscad
+include <linkages.scad>
+
+linkwidth(2,5,20,1);
+
+translate([15,0,0]) linksurround(2,5,20,1);
+```
+
+![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkwidthsurround.png?raw=true "linkwidthsurround")
 
 Using basic `linkwidththree` to determine custom distance to middle hole using a specific number or dividing by length used for the linkage:
 
