@@ -155,6 +155,8 @@ link+(width/surround)+(three/rot/angle)+(2D)
 
 ###Examples!
 
+Comparison of scaling the same linkage in inches, centimeters, and millimeters:
+
 ```openscad
 include <linkages.scad>
 
@@ -167,6 +169,8 @@ scale(cm()) linkwidth(.25,.5,3,.125);
 scale(in()) linkwidth(.25,.5,3,.125);
 ```
 ![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/3Dscaling.png?raw=true "scaling")
+
+Output of help within OpenSCAD console:
 
 ```openscad
 include <linkages.scad>
