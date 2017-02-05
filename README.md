@@ -166,7 +166,7 @@ translate([7.5,0,0]) linkwidth(2,5,20,1,slot=true);
 ```
 ![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkwidth.png?raw=true "linkwidth")
 
-Comparison us `linkwidth` to `linksurround` with the same values in mm:
+Comparison of `linkwidth` to `linksurround` with the same values in mm:
 
 ```openscad
 include <linkages.scad>
@@ -210,7 +210,7 @@ include <linkages.scad>
 
 linkwidthrot(2,5,20,5,90);
 ```
-![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkwidthrot.png?raw=true "linkwidthrot90")
+![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkwidthrot90.png?raw=true "linkwidthrot90")
 
 Using `linkwidthangle` to create flat angled linkages, using different length segments, positive and negative angles:
 
