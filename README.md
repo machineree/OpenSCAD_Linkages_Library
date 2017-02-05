@@ -149,8 +149,8 @@ Default units are mm.
   + **length2:** distance between holes from center, angled/second section
   + **angle:** angle of second section referenced from first section
 
-Naming Strategy:
+###Naming Strategy:
 
 link+(width/surround)+(three/rot/angle)+(2D)
 
-Examples to come!
+###Examples to come!
