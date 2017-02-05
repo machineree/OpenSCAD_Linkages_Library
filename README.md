@@ -203,7 +203,7 @@ translate([15,0,0]) linkwidthrot(2,5,20,1,90);
 ```
 ![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkwidthrot.png?raw=true "linkwidthrot")
 
-Using `linkwidthrot` and 90 degree linkages with flat sides. This is accomplished by making the height value the same as the width value. For `linksurroundrot` the height would have to be holeD+surround+surround. This is the result:
+Using `linkwidthrot` and 90 degree linkages with flat sides. This is accomplished by making the height value the same as the width value. For `linksurroundrot` the height would have to be *holeD+surround+surround*. This is the result:
 
 ```openscad
 include <linkages.scad>
