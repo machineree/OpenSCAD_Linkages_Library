@@ -111,7 +111,7 @@ module linkwidthangle(holeD,width,length1,length2,thick,angle){
 
 //Section 2 - Linkages based on the surround of the hole or distance from the edge of the pivot hole to the edge of the part - linksurround
 
-/*Create a linkage based on the final width of the part, enter the diameter of the holes for the linkage, the surrounding distance from the edge of the part to the outside edge of the hole, the length (hole center <--> hole center), thickness of the part, and finally true/false for a slot running through the part*/
+/*Create a linkage based on the surround of the hole, enter the diameter of the holes for the linkage, the surrounding distance from the edge of the part to the outside edge of the hole, the length (hole center <--> hole center), thickness of the part, and finally true/false for a slot running through the part*/
 
 module linksurround(holeD,surround,length,thick,slot=false){
     module slotz(){
@@ -138,7 +138,7 @@ module linksurround(holeD,surround,length,thick,slot=false){
 }
 
 
-/*Create a linkage based on the final width of the part, enter the diameter of the holes for the linkage, the surrounding distance from the edge of the part to the outside edge of the hole, the length (hole center <--> hole center), thickness of the part, and finally enter the distance to middle hole ((hole center <--> hole center) for a three-bar linkage*/
+/*Create a linkage based on the surround of the hole, enter the diameter of the holes for the linkage, the surrounding distance from the edge of the part to the outside edge of the hole, the length (hole center <--> hole center), thickness of the part, and finally enter the distance to middle hole ((hole center <--> hole center) for a three-bar linkage*/
 
 module linksurroundthree(holeD,surround,length,thick,three){
     difference(){
@@ -154,7 +154,7 @@ module linksurroundthree(holeD,surround,length,thick,three){
     echo("use linkagehelp(); for general commands and input help");
 }
 
-/*Create a linkage based on the final width of the part, enter the diameter of the holes for the linkage, the surrounding distance from the edge of the part to the outside edge of the hole, the length (hole center <--> hole center), thickness of the part, and finally angle for twist*/
+/*Create a linkage based on the surround of the hole, enter the diameter of the holes for the linkage, the surrounding distance from the edge of the part to the outside edge of the hole, the length (hole center <--> hole center), thickness of the part, and finally angle for twist*/
 
 module linksurroundrot(holeD,surround,length,thick,rot){
     difference(){
@@ -169,7 +169,7 @@ module linksurroundrot(holeD,surround,length,thick,rot){
     echo("use linkagehelp(); for general commands and input help");
 }
 
-/*Create a linkage based on the final width of the part, enter the diameter of the holes for the linkage, the surrounding distance from the edge of the part to the outside edge of the hole, the length (hole center <--> hole center) for both bars, thickness of the part, and finally angle for linkage*/
+/*Create a linkage based on the surround of the hole, enter the diameter of the holes for the linkage, the surrounding distance from the edge of the part to the outside edge of the hole, the length (hole center <--> hole center) for both bars, thickness of the part, and finally angle for linkage*/
 
 module linksurroundangle(holeD,surround,length1, length2,thick, angle) { 
     union(){
@@ -285,7 +285,7 @@ module linkwidthangle2D(holeD,width,length1,length2,angle){
 
 //----Section 2 - Linkages based on the surround of the hole or distance from the edge of the pivot hole to the edge of the part - linksurround2D
 
-/*Create a linkage based on the final width of the part, enter the diameter of the holes for the linkage, the surrounding distance from the edge of the part to the outside edge of the hole, the length (hole center <--> hole center), and finally true/false for a slot running through the part*/
+/*Create a linkage based on the surround of the hole, enter the diameter of the holes for the linkage, the surrounding distance from the edge of the part to the outside edge of the hole, the length (hole center <--> hole center), and finally true/false for a slot running through the part*/
 
 module linksurround2D(holeD,surround,length,slot=false){
     module slotz(){ 
@@ -310,7 +310,7 @@ module linksurround2D(holeD,surround,length,slot=false){
     echo("use linkagehelp(); for general commands and input help");
 }
 
-/*Create a linkage based on the final width of the part, enter the diameter of the holes for the linkage, the surrounding distance from the edge of the part to the outside edge of the hole, the length (hole center <--> hole center), and finally enter the distance to middle hole ((hole center <--> hole center) for a three-bar linkage*/
+/*Create a linkage based on the surround of the hole, enter the diameter of the holes for the linkage, the surrounding distance from the edge of the part to the outside edge of the hole, the length (hole center <--> hole center), and finally enter the distance to middle hole ((hole center <--> hole center) for a three-bar linkage*/
 
 module linksurroundthree2D(holeD,surround,length,three){
     difference(){
@@ -326,7 +326,7 @@ module linksurroundthree2D(holeD,surround,length,three){
     echo("use linkagehelp(); for general commands and input help");
 }
 
-/*Create a linkage based on the final width of the part, enter the diameter of the holes for the linkage, the surrounding distance from the edge of the part to the outside edge of the hole, the length (hole center <--> hole center) for both bars,  and finally angle for linkage*/
+/*Create a linkage based on the surround of the hole, enter the diameter of the holes for the linkage, the surrounding distance from the edge of the part to the outside edge of the hole, the length (hole center <--> hole center) for both bars,  and finally angle for linkage*/
 
 module linksurroundangle2D(holeD,surround,length1,length2,angle) { 
     union(){
@@ -352,7 +352,7 @@ module linksurroundangle2D(holeD,surround,length1,length2,angle) {
     echo("use linkagehelp(); for general commands and input help");
 }
 
-/*help in command line*/
+/*help in command*/
 
 module linkagehelp(){
     echo("LINKAGE LIBRARY v.02 - Designed by machineree");
