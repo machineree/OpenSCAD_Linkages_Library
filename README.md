@@ -22,11 +22,15 @@ Thingiverse Thing: [2081445](http://www.thingiverse.com/thing:2081445)
 
 Add to your library folder in OpenSCAD and use the include function to begin using these modules.
 
+```OpenSCAD
+include <linkages.scad>
+```
+
 [OpenSCAD Libraries (Manual)](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Libraries "OpenSCAD Libraries")
 
 Default units are mm.
 
-### 3D Linkages (linkages.scad)
+### 3D Linkages
 
 ![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkageex.png?raw=true "Examples")
 
