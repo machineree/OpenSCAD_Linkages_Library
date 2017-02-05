@@ -1,5 +1,15 @@
 # OpenSCAD_Linkages_Library
 OpenSCAD library to create multiple types of mechanical linkages in 2D and 3D.
+Thingiverse Thing:[2081445]("http://www.thingiverse.com/thing:2081445")
+
+v.02 - February 5, 2017
+
++ linkages.scad: 2D & 3D linkages in one library
+
+ - Added help function: linkagehelp();
+ - Added linkwidthangle, linksurroundangle in 2D & 3D for angled flat bar linkages with 2/3 holes
+ - Renamed modules to fit scheme
+ - Changed slots in linkwidth & linksurround to true/false
 
 v.01 - January 31, 2017
 
@@ -7,7 +17,7 @@ v.01 - January 31, 2017
 + linkages2D.scad: 2D Linkages to be exported .SVG or .DXF
 + linkageex.scad: examples of some of the operations and functions of the library
 
-Add to your library folder in OpenSCAD and use the import function to begin using these modules.
+Add to your library folder in OpenSCAD and use the include function to begin using these modules.
 
 [OpenSCAD Libraries (Manual)](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Libraries "OpenSCAD Libraries")
 
