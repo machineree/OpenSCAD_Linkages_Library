@@ -1,7 +1,7 @@
 # OpenSCAD_Linkages_Library
-OpenSCAD library to create multiple types of mechanical linkages in 2D and 3D.
+## OpenSCAD library to create multiple types of mechanical linkages in 2D and 3D.
 
-Thingiverse Thing:[2081445](http://www.thingiverse.com/thing:2081445)
+Thingiverse Thing: [2081445](http://www.thingiverse.com/thing:2081445)
 
 v.02 - February 5, 2017
 
