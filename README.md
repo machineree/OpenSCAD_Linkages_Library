@@ -192,6 +192,17 @@ translate([15,0,0]) linkwidthrot(2,5,20,1,90);
 ```
 ![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkwidthrot.png?raw=true "linkwidthrot")
 
+Using `linkwidthangle` to create flat angled linkages, using different length segments, positive and negative angles:
+
+```openscad
+include <linkages.scad>
+
+linkwidthangle(2,5,20,20,1,45);
+
+translate([15,0,0]) linkwidthangle(2,5,20,40,1,-90);
+```
+![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkwidthangle.png?raw=true "linkwidthangle")
+
 Comparison of scaling the same linkage in inches, centimeters, and millimeters:
 
 ```openscad
