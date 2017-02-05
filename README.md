@@ -11,8 +11,8 @@ Thingiverse Thing: [2081445](http://www.thingiverse.com/thing:2081445)
  - Added linkwidthangle, linksurroundangle in 2D & 3D for angled flat bar linkages with 2/3 holes
  - Renamed modules to fit scheme
  - Changed slots in linkwidth & linksurround to true/false
- - scale(in()) for inches
- - scale(cm()) for centimeters
+ - `scale(in())` for inches
+ - `scale(cm())` for centimeters
 
 *v.01 - January 31, 2017*
 
@@ -34,7 +34,7 @@ Default units are mm.
 
 ![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkageex.png?raw=true "Examples")
 
-1. linkwidth(holeD,width,length,thick,slot=false);
+1. `linkwidth(holeD,width,length,thick,slot=false);`
 
   + **holeD:** diameter of the holes at each end
   + **width:** width of the part (must be greater than holeD)
@@ -42,7 +42,7 @@ Default units are mm.
   + **thick:** thickness of the part or Z value
   + **slot:** true for a slot
 
-2. linkwidththree(holeD,width,length,thick,three);
+2. `linkwidththree(holeD,width,length,thick,three);`
 
   + **holeD:** diameter of the holes at each end
   + **width:** width of the part
@@ -50,7 +50,7 @@ Default units are mm.
   + **thick:** thickness of the part or Z value
   + **three:** distance a third hole is from the first hole, choose length/2 for center hole
 
-3. linkwidthrot(holeD,width,length,thick,rot);
+3. `linkwidthrot(holeD,width,length,thick,rot);`
 
   + **holeD:** diameter of the holes at each end
   + **width:** width of the part
@@ -58,7 +58,7 @@ Default units are mm.
   + **thick:** thickness of the part or Z value
   + **rot:** angle of rotation for the second hole to create angular linkages
   
-4. linkwidthangle(holeD,width,length1,length2,thick,angle);
+4. `linkwidthangle(holeD,width,length1,length2,thick,angle);`
 
   + **holeD:** diameter of the holes at each end
   + **width:** width of the part (must be greater than holeD)
@@ -67,7 +67,7 @@ Default units are mm.
   + **thick:** thickness of the part or Z value
   + **angle:** angle of second section referenced from first section
 
-5. linksurround(holeD,surround,length,thick,slot=false);
+5. `linksurround(holeD,surround,length,thick,slot=false);`
 
   + **holeD:** diameter of the holes at each end
   + **surround:** distance from the edge of the hole to the edge of the part
@@ -75,7 +75,7 @@ Default units are mm.
   + **thick:** thickness of the part or Z value
   + **slot:** true for a slot
 
-6. linksurroundthree(holeD,surround,length,thick,three);
+6. `linksurroundthree(holeD,surround,length,thick,three);`
 
   + **holeD:** diameter of the holes at each end
   + **surround:** distance from the edge of the hole to the edge of the part
@@ -83,7 +83,7 @@ Default units are mm.
   + **thick:** thickness of the part or Z value
   + **three:** distance a third hole is from the first hole, choose length/2 for center hole
 
-7. linksurroundrot(holeD,surround,length,thick,rot);
+7. `linksurroundrot(holeD,surround,length,thick,rot);`
 
   + **holeD:** diameter of the holes at each end
   + **surround:** distance from the edge of the hole to the edge of the part
@@ -91,7 +91,7 @@ Default units are mm.
   + **thick:** thickness of the part or Z value
   + **rot:** angle of rotation for the second hole to create angular linkages
 
-8. linksurroundangle(holeD,surround,length1, length2,thick, angle);
+8. `linksurroundangle(holeD,surround,length1, length2,thick, angle);`
 
   + **holeD:** diameter of the holes at each end
   + **surround:** distance from the edge of the hole to the edge of the part
@@ -105,21 +105,21 @@ Default units are mm.
 
 ![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkage2Dex.png?raw=true "2D Examples")
 
-1. linkwidth2D(holeD,width,length,slot=false);
+1. `linkwidth2D(holeD,width,length,slot=false);`
 
   + **holeD:** diameter of the holes at each end
   + **width:** width of the part (must be greater than holeD)
   + **length:** distance between outer holes from center
   + **slot:** enter a 1 for a slot down the middle, enter 0 for solid part
 
-2. linkwidththree2D(holeD,width,length,three);
+2. `linkwidththree2D(holeD,width,length,three);`
 
   + **holeD:** diameter of the holes at each end
   + **width:** width of the part
   + **length:** distance between outer holes from center
   + **three:** distance a third hole is from the first hole, choose length/2 for center hole
   
-3. linkwidthangle2D(holeD,width,length1,length2,angle);
+3. `linkwidthangle2D(holeD,width,length1,length2,angle);`
   
   + **holeD:** diameter of the holes at each end
   + **width:** width of the part (must be greater than holeD)
@@ -127,21 +127,21 @@ Default units are mm.
   + **length2:** distance between holes from center, angled/second section
   + **angle:** angle of second section referenced from first section
 
-4. linksurround2D(holeD,surround,length,slot=false);
+4. `linksurround2D(holeD,surround,length,slot=false);`
 
   + **holeD:** diameter of the holes at each end
   + **surround:** distance from the edge of the hole to the edge of the part
   + **length:** distance between outer holes from center
   + **slot:** enter a 1 for a slot down the middle, enter 0 for solid part
 
-5. linksurroundthree2D(holeD,surround,length,three);
+5. `linksurroundthree2D(holeD,surround,length,three);`
 
   + **holeD:** diameter of the holes at each end
   + **surround:** distance from the edge of the hole to the edge of the part
   + **length:** distance between outer holes from center
   + **three:** distance a third hole is from the first hole, choose length/2 for center hole
 
-6. linksurroundangle2D(holeD,surround,length1,length2,angle);
+6. `linksurroundangle2D(holeD,surround,length1,length2,angle);`
 
   + **holeD:** diameter of the holes at each end
   + **surround:** distance from the edge of the hole to the edge of the part
