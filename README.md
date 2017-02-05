@@ -208,11 +208,11 @@ Comparison of scaling the same linkage in inches, centimeters, and millimeters:
 ```openscad
 include <linkages.scad>
 
-translate([22.5,0,0]) linkwidth(.25,.5,3,.125);
+scale(in()) linkwidth(.25,.5,3,.125);
 
 translate([15,0,0]) scale(cm()) linkwidth(.25,.5,3,.125);
 
-scale(in()) linkwidth(.25,.5,3,.125);
+translate([22.5,0,0]) linkwidth(.25,.5,3,.125);
 ```
 ![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/3Dscaling.png?raw=true "scaling")
 
