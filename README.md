@@ -166,7 +166,7 @@ scale(cm()) linkwidth(.25,.5,3,.125);
 
 scale(in()) linkwidth(.25,.5,3,.125);
 ```
-![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/3dscaling.png?raw=true "scaling")
+![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/3Dscaling.png?raw=true "scaling")
 
 ```openscad
 include <linkages.scad>
