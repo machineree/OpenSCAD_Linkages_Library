@@ -236,6 +236,27 @@ translate([22.5,0,0]) linkwidth(.25,.5,3,.125);
 ```
 ![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/3Dscaling.png?raw=true "scaling")
 
+Simple 2X Pantograph displaying pieces, colors, and wireframe:
+
+```openscad
+include <linkages.scad>
+
+range=12;
+thick=1;
+
+color("red")
+linkwidththree (1,2,range,thick,range/4);
+color("blue")
+translate([range/2,range/4,0])linkwidththree (1,2,3*range/4,thick,range/4);
+color("yellow")
+translate([0,range/4,thick]) rotate([0,0,-90]) linkwidth(1,2,range/2,thick);
+color("green")
+translate([0,range,thick]) rotate([0,0,-90]) linkwidththree (1,2,range,thick,range/2);
+```
+![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/pantorender.png?raw=true "scaling")
+![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/pantocolor.png?raw=true "scaling")
+![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/pantowire.png?raw=true "scaling")
+
 Output of help within OpenSCAD console:
 
 ```openscad
