@@ -253,9 +253,9 @@ translate([0,range/4,thick]) rotate([0,0,-90]) linkwidth(1,2,range/2,thick);
 color("green")
 translate([0,range,thick]) rotate([0,0,-90]) linkwidththree (1,2,range,thick,range/2);
 ```
-![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/pantorender.png?raw=true "scaling")
-![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/pantocolor.png?raw=true "scaling")
-![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/pantowire.png?raw=true "scaling")
+![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/pantorender.png?raw=true "pantograph")
+![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/pantocolor.png?raw=true "pantograph")
+![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/pantowire.png?raw=true "pantograph")
 
 Output of help within OpenSCAD console:
 
