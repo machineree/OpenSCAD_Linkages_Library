@@ -110,7 +110,7 @@ Default units are mm.
   + **holeD:** diameter of the holes at each end
   + **width:** width of the part (must be greater than holeD)
   + **length:** distance between outer holes from center
-  + **slot:** enter a 1 for a slot down the middle, enter 0 for solid part
+  + **slot:** true for a slot
 
 2. `linkwidththree2D(holeD,width,length,three);`
 
@@ -132,7 +132,7 @@ Default units are mm.
   + **holeD:** diameter of the holes at each end
   + **surround:** distance from the edge of the hole to the edge of the part
   + **length:** distance between outer holes from center
-  + **slot:** enter a 1 for a slot down the middle, enter 0 for solid part
+  + **slot:** true for a slot
 
 5. `linksurroundthree2D(holeD,surround,length,three);`
 
